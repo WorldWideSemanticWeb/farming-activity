@@ -1,0 +1,6 @@
+[Activity]
+name = Subsistence Farming Activity
+activity_version = 1.1
+bundle_id = org.sugarlabs.FarmingActivity
+exec = sugar-activity-web
+icon = activity-icon

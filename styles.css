@@ -1,0 +1,226 @@
+#main-toolbar #activity-button {
+  background-image: url(activity/activity-icon.svg);
+}
+#main-toolbar #forum {
+    background-image: url(icons/forum.svg);
+}
+#main-toolbar #home {
+    background-image: url(icons/home.svg);
+}
+
+/* App background */
+.board {
+	background-color: #D3D3D3 !important;
+    position: relative;
+    float: left;
+}
+
+/* Menu buttons */
+.cropsbutton {
+  position: relative;
+  float: left;
+  margin: 5% 0px 0px 15%;
+  background-image: url(icons/crops.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+}
+.livestockbutton {
+  position: relative;
+  float: right;
+  margin: 5% 15% 0px 0px;
+  background-image: url(icons/livestock.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30%;
+}
+.crops_text {
+    position: relative;
+    float: left;
+    margin: 1.5% 0px 3% 25%;
+    text-align: center;
+    font-size: 250%;
+    font-style: bold;
+    font-variant: small-caps;
+}
+.livestock_text {
+    position: relative;
+    float: right;
+    margin: 1.5% 23% 0px 0px;   
+    text-align: center;
+    font-size: 250%;
+    font-style: bold;
+    font-variant: small-caps;
+}
+
+/* Second menu */
+.secondmenubutton {
+    float: left;
+    width: 11%;
+    margin: 4% 4% 5px 4%;
+}
+.secondmenutext {
+    float: left;
+    text-align: center;
+    width: 11%;
+    height: auto;
+    margin: 5px 4% 1% 4%;
+    font-size: 160%;
+    font-style: bold;
+    font-family: Verdana, sans-serif;
+}
+
+/* Lists */
+.enyo-list {
+	color: black;
+	background: #D3D3D3;
+    list-style-type: upper-roman;
+    position: relative;
+    padding: 0px 5px 5px 5px;
+}
+.listItemContainer {
+	color:#777;
+    margin-bottom: 15px;
+	font-weight: bold;
+	background: #fff;
+	font-size:20px;
+	padding:1%;
+	border:1px solid gray;
+    width:85%;
+    text-align:left;
+}
+.list-image {
+    width:15%;
+    height:auto;
+    padding-bottom: 15px;
+}
+.enyo-header {
+    padding:5px;
+    height:5%;
+    text-align: center;
+    width:100%;
+}  
+
+@media screen and (max-width: 480px) {	
+	.shadowbutton-image {
+		width: 60px;
+	}
+	
+	.card {
+		border-width: 3px;
+		box-shadow: 3px -2px 2px 1px black;	
+	}	
+	
+	.cardText {
+		font-size: 12px;	
+	}
+	
+	.start-box {
+		height: 120px;
+	}
+
+	.end-box {
+		height: 120px;
+	}
+
+	.box-name {
+		font-size: 10pt;
+	}
+	
+	.title {
+		font-size: 14pt;
+	}
+	
+	.play {
+		top: 24%;
+	}
+
+	.validate {
+		top: 24%;
+	}
+
+	.restart {
+		top: 24%;
+	}
+
+	.home {
+		top: 24%;
+	}	
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+	.shadowbutton-image {
+		width: 80px;
+	}
+	
+	.card {
+		border-width: 4px;
+		box-shadow: 4px -3px 3px 2px black;			
+	}	
+	
+	.cardText {
+		font-size: 14px;	
+	}
+	
+	.start-box {
+		height: 150px;
+	}
+
+	.end-box {
+		height: 160px;
+	}
+	
+	.box-name {
+		font-size: 12pt;
+	}	
+	
+	.title {
+		font-size: 15pt;
+	}	
+}
+
+@media screen and (min-width: 641px) and (max-width: 854px) {
+	.shadowbutton-image {
+		width: 100px;
+	}
+	
+	.cardText {
+		font-size: 18px;	
+	}	
+	
+	.start-box {
+		height: 190px;
+	}
+
+	.end-box {
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 855px) and (max-width: 960px) {
+	.shadowbutton-image {
+		width: 110px;
+	}
+	
+	.cardText {
+		font-size: 20px;	
+	}	
+	
+	.start-box {
+		height: 205px;
+	}
+
+	.end-box {
+		height: 215px;
+	}
+}
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+	.start-box {
+		height: 250px;
+	}
+
+	.end-box {
+		height: 260px;
+	}	
+}
